@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg  shadow-lg " style="background-color: #f0f0f0;" >
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse link" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link  text-center " aria-current="page" href="formulirPendaftaran.html">Formulir Pendaftaran Peserta</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tabelPeserta.html">Tabel Peserta</a>
+        </li>
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+    
+    <hr>
+    <h2 >Formulir Pendaftaran </h2>
+    <fieldset >
+        <legend>
+           Data Pribadi
+        </legend>
+        <div class="satu">
+                    <form action="#" method="post" background="b7b1f2">
+                        <label for="nama">Nama :</label> <br>
+                        <input type="text" name="nama"> <br><br>
+
+                        <label>Jenis Kelamin:</label> <br>
+                        <input type="radio" name="gender" value="laki"> Laki-laki
+                        <input type="radio" name="gender" value="perempuan"> Perempuan<br><br>
+
+
+                        <label for="Agama">Agama :</label> <br>
+                        <select id="Agama" name="Agama">
+                            <optgroup label="Agama Mayoritas">
+                                <option value="Islam">Islam</option>
+                                <option value="Kristen">Kristen</option>
+                                <option value="Katolik">Katolik</option>
+                            </optgroup>
+                            <optgroup label="Agama Lain">
+                                <option value="Hindu">Hindu</option>
+                                <option value="Budha">Budha</option>
+                            </optgroup>
+                        </select> <br> <br>
+
+                        <label for="Tempatlahir">Tempat Lahir :</label> <br>
+                        <input type="text" name="Tempatlahir"> <br><br>
+
+                        <label>Tanggal Lahir:</label><br>
+                        <input type="date" name="date"><br><br>
+
+                        <label for="Alamat">Alamat :</label> <br>
+                        <textarea name="Alamat" id="Alamat" cols="30" rows="5"></textarea> <br>
+                    </form> <br>
+          </div>
+    </fieldset> <br>
+    <!-- end -->
+
+    <fieldset>
+        <legend>
+            Pendidikan
+        </legend>
+        <div class="dua">
+                    <form action="#" method="post" background="b7b1f2">
+                        <label for="SD">SD :</label> <br>
+                        <input type="text" name="nama">
+                        <label>Masuk:</label>
+                        <input type="date" name="date">
+                        <label>Keluar:</label>
+                        <input type="date" name="date"> <br><br>
+
+                        <label for="SMP">SMP :</label><br>
+                        <input type="text" name="nama">
+                        <label>Masuk:</label>
+                        <input type="date" name="date">
+                        <label>Keluar:</label>
+                        <input type="date" name="date"> <br><br>
+
+                        <label for="SMA">SMA :</label><br>
+                        <input type="text" name="nama">
+                        <label>Masuk:</label>
+                        <input type="date" name="date">
+                        <label>Keluar:</label>
+                        <input type="date" name="date"> <br><br>
+                    </form>
+        </div>
+    </fieldset> <br>
+
+    <fieldset>
+        <legend>
+            Pelatihan
+        </legend>
+      <div class="satu">
+                    <form action="#" method="post" background="b7b1f2">
+                        <label>Minat:</label> <br>
+                        <input type="checkbox" name="checkbox1">HTML
+                        <input type="checkbox" name="checkbox2">CSS
+                        <input type="checkbox" name="checkbox2">JavaScript
+                        <input type="checkbox" name="checkbox2">PHP <br><br>
+
+                        <label>Kompetensi:</label> <br>
+                        <input type="checkbox" name="checkbox1">HTML
+                        <input type="checkbox" name="checkbox2">CSS
+                        <input type="checkbox" name="checkbox2">JavaScript
+                        <input type="checkbox" name="checkbox2">PHP <br><br>
+                    </form>
+          </div>
+    </fieldset> <br><br>
+
+    <fieldset>
+        <legend>
+            Pilihan Jurusan
+        </legend>
+        <div class="dua">
+                    <form action="#" method="post" background="b7b1f2">
+                        <select id="Jurusan" name="Jurusan">
+                            <optgroup label="Teknik">
+                                <option value="Teknik Informatika">Teknik Informatika</option>
+                                <option value="Teknik Elektro">Teknik Elektro</option>
+                                <option value="Teknik Industri">Teknik Industri</option>
+                                <option value="Teknik Sipil">Teknik Sipil</option>
+                            </optgroup>
+                            <optgroup label="Ekonomi">
+                                <option value="Akuntansi">Akuntansi</option>
+                                <option value="Manajemen">Manajemen</option>
+                                <option value="Perbankan">Perbankan</option>
+                                <option value="Bisnis Digital">Bisnis Digital</option>
+                            </optgroup>
+                        </select>
+                    </form>
+         </div>
+    </fieldset>
+
+    <div class="button">Kirim</div>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+body{
+    background-color:#FFFFCC ;
+    font-family: 'Courier New', Courier, monospace;
+   margin: 100px;
+   margin-top: 20px;
+    
+}
+
+input{
+    width: auto;
+}
+
+.satu{
+    background-color:#f0f0f0 ;
+    outline-style: dashed;
+     border: 1px dashed black;
+
+     margin: 10px;
+    padding: 10px;
+    
+}
+.satuu{
+    background-color:#f0f0f0 ;
+    outline-style: dashed;
+    border: 1px dashed black;
+     margin: 20px auto;   /* auto kiri kanan = center */
+    padding: 30px;
+        
+    
+}
+
+fieldset {
+  border: 2px solid black !important; /* bikin kotak fieldset */
+  padding: 10px;
+  margin: 20px 0;
+}
+
+legend {
+  float: none;                /* biar balik ke posisi default */
+  width: auto;                /* jangan full baris */
+  padding: 0 10px;            /* kasih jarak kiri-kanan */
+  font-weight: bold;
+}
+
+
+
+h2{ 
+    text-align: center;
+}
+
+.dua{
+    background-color:#675dee ;
+    outline-style: dashed;
+     border: 1px dashed black;
+
+     margin: 10px;
+    padding: 10px;
+    
+}
+
+
+.link {
+    text-align: center;
+    text-decoration: none;  
+    margin: 20px;
+    
+}
+
+
+.link a{
+    text-decoration: none;
+    color: #966d34;
+}
+
+
+.link a:hover {
+    
+    color: #6a06ee;
+}
+
+.button {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    width: 50px;
+    height: 30px;
+    float: right;
+    margin-top: 10px;
+   
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #2acc3f;
+    color: #533914;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 600px;
+}
